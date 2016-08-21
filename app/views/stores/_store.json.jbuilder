@@ -1,0 +1,2 @@
+json.extract! store, :id, :user_id, :store_name, :address1, :address2, :region, :city_town, :brgy, :zipcode, :mobile_phone, :telephone, :created_at, :updated_at
+json.url store_url(store, format: :json)
